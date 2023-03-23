@@ -18,7 +18,7 @@ void insert()
 {
 
     struct node *newnode;
-    newnode = (struct node *)malloc(sizeof(struct node));
+    newnode = (struct node *)malloc(sizeof(struct node)); //allocating space for the pointer
     printf("Enter Node -> ");
     scanf("%d", &newnode->data);
     // head->next=newnode;
