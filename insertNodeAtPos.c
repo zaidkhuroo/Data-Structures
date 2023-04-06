@@ -16,7 +16,7 @@ int choice;
 
 void insert()
 {
-
+ 
     struct node *newnode;
     newnode = (struct node *)malloc(sizeof(struct node)); //allocating space for the pointer
     printf("Enter Node -> ");
