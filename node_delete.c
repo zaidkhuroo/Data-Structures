@@ -9,7 +9,7 @@ struct node
 struct node *temp=0;
 struct node *head=0;
 struct node *newnode;
-// int choice=0;
+// int choice=0; 
 void insert()
 {
     struct node *newnode;
