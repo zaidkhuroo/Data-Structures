@@ -13,7 +13,7 @@ struct node *newnode;
 void insert()
 {
     struct node *newnode;
-    newnode = (struct node *)malloc(sizeof(struct node));
+    newnode = (struct node *)malloc(sizeof(struct node)); 
     printf("Enter Node\n");
     scanf("%d", &newnode->data);
     newnode->next=0;
