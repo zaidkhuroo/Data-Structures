@@ -6,7 +6,7 @@ struct node
     struct node *next;
 };
 // making head and temp pointers to point the beginning of node and random node respectively. 
-struct node *temp=0;
+struct node *temp=0; 
 struct node *head=0;
 struct node *newnode;
 // int choice=0; 
