@@ -18,7 +18,7 @@ void insert()
     scanf("%d", &newnode->data);
     newnode->next=0;
 }
-
+ 
 void display()
 {
     head= temp;
