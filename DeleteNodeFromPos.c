@@ -7,6 +7,7 @@ struct node
     struct node *next;
     struct node *prev;
 };
+// creating 4 pointers to point over the nodes at different positions
 struct node *temp, *head, *tail, *newnode;
 int choice = 1;
 
