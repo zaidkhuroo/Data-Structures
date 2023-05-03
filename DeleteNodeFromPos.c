@@ -13,6 +13,7 @@ int choice = 1;
 
 void call()
 {
+//     allocating location
   newnode = (struct node *)malloc(sizeof(struct node));
         printf("Enter the node\n");
         scanf("%d", &newnode->data);
