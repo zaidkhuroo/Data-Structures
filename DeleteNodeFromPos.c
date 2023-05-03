@@ -17,6 +17,7 @@ void call()
   newnode = (struct node *)malloc(sizeof(struct node));
         printf("Enter the node\n");
         scanf("%d", &newnode->data);
+//     as this is the doubly linked list so both the prev and next pointer are set to null/0
         newnode->prev = 0;
         newnode->next = 0;
         if (head == 0)
