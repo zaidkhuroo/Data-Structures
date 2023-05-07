@@ -3,7 +3,7 @@
 struct node
 { 
     int data;
-    struct node *next; 
+    struct node *next;             
 };
 // making head and temp pointers to point the beginning of node and random node respectively.  
 struct node *temp=0; 
