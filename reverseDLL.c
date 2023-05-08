@@ -19,7 +19,7 @@ void call()
     newnode->next = 0;
     if (head == 0)
     {
-        head = tail = newnode;
+        head = tail = newnode;   
     } 
     else
     {
