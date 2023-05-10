@@ -15,7 +15,7 @@ struct arrayADT
 struct arrayADT* createArray(int capacity); /*function decleration for creating an ADT array*/
 int getItem(struct arrayADT *arr,int index); /*function decleration for getiing an item from array by index */
 int editItem(struct arrayADT*,int index,int newValue); /*function decleration to edit a value at any index */
-int countItems(struct arrayADT*); /*function decleration to count items in an arrayABT */
+int countItems(struct arrayADT*); /*function decleration to count items in an arrayABT */        
 int removeItem(struct arrayADT*,int index); /*function decleration to remove item from array*/
 int setItem(struct arrayADT*, int index,int value); /*function decleration to put value in an array ADT*/
 int search (struct arrayADT*, int item); /*function decleration to search an element in an array*/
