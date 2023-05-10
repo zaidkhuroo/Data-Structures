@@ -2,7 +2,7 @@
 #include<conio.h>
 #include<stdlib.h>
 
-
+ 
 struct arrayADT
 {
     int capacity;
