@@ -21,9 +21,11 @@ void insert()
     newnode->next=0;
 }
  
+// function to display the result
 void display()
 {
     head= temp;
+//     using while loop until head is not equal to 0
     while (temp != 0)
     {
         printf("%d ->", temp->data);
@@ -33,6 +35,7 @@ void display()
 }
 void main()
 {
+//     calling functions
     insert();
     insert();
     insert();
