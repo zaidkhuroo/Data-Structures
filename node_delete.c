@@ -12,7 +12,9 @@ struct node *newnode;
 // int choice=0;  
 void insert()
 {
+//     creating a node
     struct node *newnode;
+//     allocating memory
     newnode = (struct node *)malloc(sizeof(struct node)); 
     printf("Enter Node\n");
     scanf("%d", &newnode->data);
