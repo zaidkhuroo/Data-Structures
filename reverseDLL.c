@@ -5,7 +5,7 @@ struct node
 {
     int data; 
     struct node *next;
-    struct node *prev;
+    struct node *prev; 
 };
 struct node *temp, *head, *tail, *newnode;
 //int choice = 1;
