@@ -4,7 +4,7 @@ struct node
 { 
     int data;
     struct node *next;             
-}; 
+};  
 // making head and temp pointers to point the beginning of node and random node respectively.  
 // creating node temp to point to hover and point over a specific node
 struct node *temp=0; 
